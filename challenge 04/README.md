@@ -10,4 +10,5 @@
 * The section at the bottom should have
    a dark background color and a different
    color of text
+* There should be space between the columns.
 
