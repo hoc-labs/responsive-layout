@@ -8,12 +8,14 @@ body {
 }
 
 .container {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
   background: #23424a;
   color: white;
+  padding: 50px 0;
+}
 
-  width: 80%;
-  margin: 0 auto;
-
-  padding: 2em;
-  height: 300px;
+.intro-content {
+  width: 50%;
 }

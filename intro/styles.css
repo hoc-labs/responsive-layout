@@ -4,14 +4,21 @@
 
 body {
   margin:0;
+  color:#333;
+  font-size:21px;
 }
 
 .parent {
   background-color:#23424A;
   padding:50px;
+
+  /* width: 900px; */
+  width:80%;
+  margin: 0 auto;
+  /* max-width: 600px; */
 }
 
 .child {
   background-color:#38CFD9;
-  height:300px;
+  /* height:250px; */
 }
