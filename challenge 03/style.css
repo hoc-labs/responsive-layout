@@ -9,15 +9,14 @@ body {
     font-size: 1.3rem;
 }
 
-img {
-    max-width: 100%;
-}
-
 h1 {
     font-size: 3rem;
     margin-top: 0;
 }
 
+/* img {
+    max-width:100%;
+} */
 .container {
     width: 80%;
     max-width: 1100px;
@@ -25,16 +24,11 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
-    display: flex;
+     display: flex;
     justify-content: space-between;
-    
-    /* can't use yet */
-    /* gap: 100px; */
 }
 
 .col {
-    /* these are now flex items */
     width: 100%;
 }
 
@@ -49,14 +43,10 @@ h1 {
 }
 
 .hero__text { 
-    width: 62%;
 }
 
 .hero__img {
-    width: 32%;
-    align-self: flex-start;
 }
-
 .hero p {
     margin-bottom: 3em;
 }
